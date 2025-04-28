@@ -58,7 +58,7 @@ Output: Display the final recommended EoL operation path (e.g., Manual Disassemb
 
 A standard multi-tier web application architecture is proposed:
 
-Frontend (Client-side): User Interface built with a modern JavaScript framework (e.g., React, Vue, Angular). Handles user interaction, data display, and communication with the backend.
+Frontend (Client-side): User Interface built with a modern JavaScript framework. Handles user interaction, data display, and communication with the backend.
 
 Backend (Server-side): API server built with a robust framework (e.g., Python with Flask/Django, Node.js with Express). Handles business logic, database interactions, user authentication, and communication with the AI model and potentially hardware interfaces.
 
