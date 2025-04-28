@@ -1,10 +1,10 @@
-# ai-based-decision-support
-Web Application Plan: AI E-waste Decision Support System (VEIDD)
-1. Introduction
+# Ai-based-decision-support
+# Web Application Plan: AI E-waste Decision Support System (VEIDD)
+## 1. Introduction
 
 This document outlines the plan for developing a web application based on the VEIDD (Visual recognition, Evaluation, Intactness, Difficulty, Decisioning) system described in the research paper "AI-based decision support system for enhancing end-of-life value recovery from e-wastes" by Simaei and Rahimifard (2024). The web application will serve as the primary interface for users to interact with the VEIDD system, manage e-waste data, initiate the decision process, and view the recommended End-of-Life (EoL) treatment paths.
 
-2. Goals & Objectives
+## 2. Goals & Objectives
 
 Primary Goal: To create a user-friendly, efficient, and scalable web application that implements the core logic of the VEIDD decision support system.
 
@@ -24,7 +24,7 @@ Display clear and actionable results and recommendations to the user.
 
 Offer reporting and potentially configuration options.
 
-3. Target Audience
+## 3. Target Audience
 
 Recycling Facility Operators/Technicians: Users responsible for processing e-waste and following the system's recommendations.
 
@@ -32,7 +32,7 @@ System Administrators: Users responsible for managing the database, user account
 
 Researchers/Managers: Users interested in analyzing processing data, system performance, and trends.
 
-4. Core VEIDD Workflow Integration
+## 4. Core VEIDD Workflow Integration
 
 The web application will facilitate the following workflow derived from the paper:
 
@@ -54,7 +54,7 @@ Fuzzy Decisioning: Input the results from Evaluation, Intactness, and Difficulty
 
 Output: Display the final recommended EoL operation path (e.g., Manual Disassembly, Robotic Disassembly, Robotic Extraction, Shredding) to the user.
 
-5. Proposed Web Application Architecture
+## 5. Proposed Web Application Architecture
 
 A standard multi-tier web application architecture is proposed:
 
@@ -74,7 +74,7 @@ AI Visual Recognition Module: The trained AI model (e.g., based on AlexNet or a 
 
 (Optional) Hardware Integration Layer: An interface (e.g., via specific APIs or protocols like MQTT) to communicate with physical systems like cameras, scales, and conveyor belts if direct integration is desired.
 
-6. Key Features & Modules
+## 6. Key Features & Modules
 
 Dashboard:
 
@@ -130,7 +130,7 @@ Adjust system parameters (e.g., confidence thresholds for recognition).
 
 Potentially view or manage fuzzy logic rules (for advanced users).
 
-7. Technology Stack (Suggestions)
+## 7. Technology Stack (Suggestions)
 
 Frontend: React, Vue.js, or Angular; Tailwind CSS or similar UI library.
 
@@ -142,7 +142,7 @@ AI Model: TensorFlow, PyTorch (served via TensorFlow Serving, TorchServe, or a c
 
 Deployment: Docker, Kubernetes, Cloud Platform (AWS, Google Cloud, Azure).
 
-8. Development Phases (High-Level)
+## 8. Development Phases (High-Level)
 
 Planning & Design: Refine requirements, create detailed UI/UX mockups, finalize architecture and technology stack.
 
@@ -158,7 +158,7 @@ Deployment: Deploy the application and AI model to a staging/production environm
 
 Maintenance & Iteration: Ongoing monitoring, bug fixing, and potential feature enhancements based on user feedback.
 
-9. Future Enhancements (Based on Paper)
+## 9. Future Enhancements (Based on Paper)
 
 Integration with more advanced recognition techniques (e.g., fluoroscopy imaging for internal assessment).
 
@@ -168,7 +168,7 @@ Incorporation of cost-benefit analysis for each EoL operation path.
 
 Continuous learning capabilities for the AI model based on operator feedback or new data.
 
-10. Assumptions & Dependencies
+## 10. Assumptions & Dependencies
 
 A trained and deployable AI visual recognition model is available or will be developed concurrently.
 
