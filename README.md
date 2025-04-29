@@ -1,4 +1,3 @@
-# Ai-based-decision-support
 # Web Application Plan: AI E-waste Decision Support System (VEIDD)
 ## 1. Introduction
 
