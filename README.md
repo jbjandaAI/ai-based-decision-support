@@ -69,7 +69,7 @@ Processing logs (details of each item processed, inputs, intermediate results, f
 
 User accounts and permissions.
 
-AI Visual Recognition Module: The trained AI model (e.g., based on AlexNet or a more modern CNN). This could be hosted as a separate microservice with its own API, which the backend interacts with.
+AI Visual Recognition Module: The trained AI model. This could be hosted as a separate microservice with its own API, which the backend interacts with.
 
 (Optional) Hardware Integration Layer: An interface (e.g., via specific APIs or protocols like MQTT) to communicate with physical systems like cameras, scales, and conveyor belts if direct integration is desired.
 
